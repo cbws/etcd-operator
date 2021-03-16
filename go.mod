@@ -3,7 +3,7 @@ module github.com/coreos/etcd-operator
 go 1.15
 
 require (
-	cloud.google.com/go/storage v1.6.0
+	cloud.google.com/go/storage v1.10.0
 	github.com/Azure/azure-sdk-for-go v43.3.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.18
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
@@ -24,11 +24,10 @@ require (
 	github.com/sirupsen/logrus v1.8.0
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20200427203606-3cfed13b9966 // indirect
 	go.uber.org/zap v1.15.0 // indirect
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
+	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
-	google.golang.org/api v0.20.0
-	google.golang.org/appengine v1.6.6 // indirect
+	google.golang.org/api v0.42.0
+	google.golang.org/grpc/examples v0.0.0-20210315211313-1e7119b13689 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 	k8s.io/api v0.20.4
 	k8s.io/apiextensions-apiserver v0.20.4
